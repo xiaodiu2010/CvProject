@@ -190,7 +190,7 @@ def main(pretrain=True):
         clothset()
         super_unary_data()
         label_use = get_useful_labels(threshold=50)
-        lf = training_unary(label_use=label_use)
+        clf = training_unary(label_use=label_use)
 
 
 
